@@ -11,7 +11,6 @@ namespace BloggingPlatform.Models
 {
     public class CategoryRepository : IRepository<Category>
     {
-        // comment added
         BlogAppContext m_Context = null;
 
         public CategoryRepository(BlogAppContext context)
